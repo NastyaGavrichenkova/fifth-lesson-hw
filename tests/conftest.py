@@ -5,7 +5,6 @@ from selenium import webdriver
 
 @pytest.fixture(autouse=True)
 def url():
-    browser.config.driver = webdriver.Chrome()
     browser.config.base_url = "https://demoqa.com"
 
 
